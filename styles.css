@@ -1,0 +1,16 @@
+body {
+  background-color: #034c3c;
+}
+.row {
+  background-color: #688e26;
+  border-radius: 8px;
+}
+.Video {
+  background-color: #bee7b8;
+  text-align: center;
+  color: #4c2e05;
+
+  margin-bottom: 1%;
+  padding-top: 1%;
+  border-radius: 8px;
+}
