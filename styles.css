@@ -14,3 +14,7 @@ body {
   padding-top: 1%;
   border-radius: 8px;
 }
+
+.card__artigo {
+  width: 40rem;
+}
