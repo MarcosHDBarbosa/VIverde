@@ -2,7 +2,8 @@ body {
   background-color: #034c3c;
 }
 .row {
-  background-color: #688e26;
+  /*background-color: #688e26;*/
+  background-color: #bee7b8;
   border-radius: 8px;
 }
 .Video {
@@ -15,6 +16,7 @@ body {
   border-radius: 8px;
 }
 
-.card__artigo {
-  width: 40rem;
+.card-body {
+  background-color: #bee7b8;
+  color: #4c2e05;
 }
