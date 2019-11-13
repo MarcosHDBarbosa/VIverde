@@ -1,22 +1,33 @@
 body {
-  background-color: #034c3c;
+    background-color: #034c3c;
 }
 .row {
-  /*background-color: #688e26;*/
-  background-color: #bee7b8;
-  border-radius: 8px;
+    /*background-color: #688e26;*/
+    background-color: #bee7b8;
+    border-radius: 8px;
 }
 .Video {
-  background-color: #bee7b8;
-  text-align: center;
-  color: #4c2e05;
+    background-color: #bee7b8;
+    text-align: center;
+    color: #4c2e05;
 
-  margin-bottom: 1%;
-  padding-top: 1%;
-  border-radius: 8px;
+    margin-bottom: 1%;
+    padding-top: 1%;
+    border-radius: 8px;
 }
 
 .card-body {
-  background-color: #bee7b8;
-  color: #4c2e05;
+    background-color: #bee7b8;
+    color: #4c2e05;
+}
+
+.btn-primary {
+    background-color: #586f7c;
+    border-color: #586f7c;
+}
+
+.display-4 {
+    color: #f4f4f9;
+    margin: 3rem 0rem;
+    text-align: center;
 }

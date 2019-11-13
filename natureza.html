@@ -8,12 +8,14 @@
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     />
+    <script src="https://kit.fontawesome.com/50efcd7d12.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="index.html">VIVERDE</a>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark style="background-color: #000000;"">
+                <a class="navbar-brand" href="artigos.html">VIVERDE</a>
+
         <button
           class="navbar-toggler"
           type="button"
@@ -23,12 +25,8 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarText">
-          <ul class="navbar-nav mx-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html"
-                >Início <span class="sr-only">(current)</span></a
-              >
-            </li>
+                    <ul class="navbar-nav ml-auto">
+
             <li class="nav-item">
               <a class="nav-link" href="canal.html">Canais</a>
             </li>
@@ -47,15 +45,20 @@
     </header>
 
     <main class="container">
+        <div class="container">
+          <h2 class="display-4">Natureza brasileira</h2>
+          <!-- <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p> -->
+        </div>
       <div id="accordion">
         <div class="card">
           <div class="card-header" id="headingOne">
             <h5 class="mb-0">
               <button
-                class="btn btn-link"
+                class="btn btn-link collapsed"
                 data-toggle="collapse"
                 data-target="#collapseOne"
               >
+              <i class="fas fa-paw"></i>
                 Animais
               </button>
             </h5>
@@ -212,6 +215,7 @@
                 data-toggle="collapse"
                 data-target="#collapseTwo"
               >
+              <i class="fas fa-leaf"></i>
                 Plantas
               </button>
             </h5>
@@ -346,9 +350,6 @@
       </div>
     </main>
 
-    <footer>
-      RODAPÉ
-    </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
